@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>1301174194
+    </title>
+    <script type="text/javascript" src="operasi.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+    <table >
+        <form>
+        <tbody>
+        <tr>
+            <td colspan="4">
+                <input type="text" name="tampilan" disabled>
+            </td>    
+        </tr>
+        <tr>
+            <td><input type="button" id="tujuh" value="7" onclick="tambahKarakter(this.form.tampilan,'7')"></td>
+            <td><input type="button" id="delapan" value="8" onclick="tambahKarakter(this.form.tampilan,'8')"></td>
+            <td><input type="button" id="sembilan" value ="9" onclick="tambahKarakter(this.form.tampilan,'9')"></td>
+            <td><input type="button" id="bagi" value="/" onclick="tambahKarakter(this.form.tampilan,'/')"></td>
+        </tr>
+        <tr>
+            <td><input type ="button" id="empat" value="4" onclick="tambahKarakter(this.form.tampilan,'4')"></td>
+            <td><input type ="button" id="lima" value="5" onclick="tambahKarakter(this.form.tampilan,'5')"></td>
+            <td><input type ="button" id="enam" value="6" onclick="tambahKarakter(this.form.tampilan,'6')"></td>
+            <td><input type="button" id="tambah" value="+" onclick="tambahKarakter(this.form.tampilan,'+')"></td>
+        </tr>
+        <tr>
+            <td><input type ="button" id="satu" value="1" onclick="tambahKarakter(this.form.tampilan,'1')"></td>
+            <td><input type ="button" id="dua" value="2" onclick="tambahKarakter(this.form.tampilan,'2')"></td>
+            <td><input type ="button" id="tiga" value="3" onclick="tambahKarakter(this.form.tampilan,'3')"></td>
+            <td><input type="button" id="kurang" value="-" onclick="tambahKarakter(this.form.tampilan,'-')"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" id="equals" value="=" onclick="kalkulasi(this.form)"></td>
+            <td><input type="button" id="clear" value="C" onclick="clearthis(this.form.tampilan)"></td>
+            <td><input type="button" id="Multiply" value="*" onclick="tambahKarakter(this.form.tampilan,'*')"></td>
+        </tr>
+        </tbody>
+        </form>    
+    </table>
+    </body>
+    
+</html>
